@@ -12,7 +12,7 @@ public class principal {
 		civi.placa = "EIC-2490";
 		civi.cor = "preto";
 		civi.velocidade = 0;
-		civi.acelera (5);
+		civi.acelera (10);
 		civi.freia(5);
 		civi.Carraun();
 		
