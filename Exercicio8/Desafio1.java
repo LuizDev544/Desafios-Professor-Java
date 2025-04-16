@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Desafio1 {
     public static void main(String[] args) {
 
-        System.out.println("||criação de uma lista com nomes e filtragem personalizada");
+        System.out.println("||criação de uma lista com nomes e filtragem personalizada||");
 
         List<String> ListaDeNomes = new ArrayList<>();
 
