@@ -28,8 +28,6 @@ public class Desafio3 {
         }
 
         System.out.println("Nuemros pares:" + ListaDeNumerosPares);
-        System.out.println("Nuemros pares:" + ListaDeNumerosImpares);
-
-        
+        System.out.println("Nuemros Impares:" + ListaDeNumerosImpares);
         }
 }
