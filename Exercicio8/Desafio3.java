@@ -1,17 +1,35 @@
 package Exercicio8;
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Scanner;
-
 
 public class Desafio3 {
-    public static void main(String[] args) {
-        System.out.println("||Palavras de comprimento Par ou Impar||");
+    public static void main(String[] args, int i) {
+        System.out.println("||Verificar eleementos duplicados||");
 
-        Scanner sc = new Scanner(System.in);
+        List<Integer> ListaDeNumeros = new ArrayList<>();
 
-        System.out.println("Digite um numero de palavras utilizando a virgula:");
+        ListaDeNumeros.add(22);
+        ListaDeNumeros.add(7);
+        ListaDeNumeros.add(45);
+        ListaDeNumeros.add(23);
+        ListaDeNumeros.add(66);
 
-        sc.close();
+        System.out.println("Lista dos Numeros:" + ListaDeNumeros);
+
+        List<Integer> ListaDeNumerosPares = new ArrayList<>();
+        List<Integer> ListaDeNumerosImpares = new ArrayList<>();
+        
+        for (int numero : ListaDeNumeros) {
+            if (numero % 2 == 0) {
+                ListaDeNumerosPares.add(numero);
+            }else{
+                ListaDeNumerosImpares.add(numero);
+            }
+        }
+
+        System.out.println("Nuemros pares:" + ListaDeNumerosPares);
+        System.out.println("Nuemros pares:" + ListaDeNumerosImpares);
+
+        
         }
 }
