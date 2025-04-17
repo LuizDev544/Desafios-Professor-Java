@@ -1,4 +1,4 @@
-package Exercicio1;
+package Variaveis.java;
 import java.util.Scanner;
 
 public class Desafio1 {
