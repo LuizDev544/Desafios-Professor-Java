@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class Desafio3 {
-    public static void main(String[] args, int i) {
+    public static void main(String[] args) {
         System.out.println("||Verificar eleementos duplicados||");
 
         List<Integer> ListaDeNumeros = new ArrayList<>();
